@@ -265,10 +265,10 @@ header{
  }
  .serviciosContenedor{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  
+  width: 70vw;
  }
  .servicio:hover{
   box-shadow: 5px 5px 10px rgb(111, 123, 157);   
